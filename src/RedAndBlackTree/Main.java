@@ -1,7 +1,6 @@
 package RedAndBlackTree;
-
 /**
- * Задание 1. Преобразование дерева поиска в красно-черное дерево
+ * Преобразование дерева поиска в красно-черное дерево
  * Вам дано бинарное дерево поиска. Напишите метод, который преобразует его в
  * левостороннее красно-черное дерево (РЧД). Красно-черное дерево должно
  * удовлетворять следующим критериям:
@@ -25,14 +24,14 @@ package RedAndBlackTree;
  */
 public class Main {
     public static void main(String[] args) {
-        RedBlackTree<Integer> tree = new RedBlackTree<>();
-        tree.insert(55);
-        tree.insert(40);
-        tree.insert(65);
-        tree.insert(60);
-        tree.insert(75);
-        tree.insert(57);
-        tree.printTree();
-    }
-}
+    RedBlackTree<Integer> tree = new RedBlackTree<>();
+        tree.insert(15);
+        tree.insert(10);
+        tree.insert(35);
+        tree.insert(25);
+        tree.insert(20);
+        tree.insert(30);
 
+        tree.printTree(); // Вывод дерева
+}
+}
